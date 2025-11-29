@@ -1,5 +1,5 @@
 - This is projet is to demonstrate an ETL pipeline using weather data.
 - This project uses airflow and astro to manage the workflow ansd create DAG.
 - The data is extracted from and API endpoint and transformed into key-value pairs. A table is created(if not exists already) and then the dats is stored in the postgres
-- 2 types of connections are required i.e to the api https://api.open-meteo.com and to the postgres DB.
+- 2 types of connections are required i.e to the api https://api.open-meteo.com/ and to the postgres DB.
 - Prerequistes are knowledge of docker and postgres.
